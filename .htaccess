@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteBase /
+
+RewriteEngine on
+RewriteRule ^\.git/ - [F,L]
